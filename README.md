@@ -1,16 +1,33 @@
-# tikes
+# Ti Kès 
 
-A new Flutter project.
+Application de gestion des finances personnelles.
 
-## Getting Started
+## 🚀 **Getting Started**
+### Prerequisites
+Ensure you have the following installed:
+- Flutter SDK (v3.27.1+)
+- Dart (v3.6.0+)
+- Android Studio / VS Code with Flutter plugin
 
-This project is a starting point for a Flutter application.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Schtroumphy/tikes.git
+   cd tikes
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Generate code:
+   ```bash
+   flutter pub run build_runner build -d
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Run project
+   ```bash
+   flutter pub run
+   ```
+---
